@@ -1,0 +1,8 @@
+CREATE TABLE `event` (
+	`no` VARCHAR(5) NOT NULL,
+	`name` VARCHAR(50) NOT NULL,
+	PRIMARY KEY (`no`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+;
