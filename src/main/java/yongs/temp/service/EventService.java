@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import yongs.temp.db.mapper.EventMapper;
-import yongs.temp.db.vo.Event;
+import yongs.temp.vo.Event;
 
 @Service
 public class EventService {

@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import yongs.temp.db.vo.Event;
 import yongs.temp.service.EventService;
+import yongs.temp.vo.Event;
 
 @RestController
 @RequestMapping("/events")
